@@ -1,0 +1,86 @@
+.news_container {
+  height: 100%;
+  background: url(//game.gtimg.cn/images/lolm/m/news_bg.jpg) center bottom no-repeat #fff;
+  background-size: 100%;
+}
+.news_container .newNav {
+  background: #f7d82e;
+  font-size: 0.26rem;
+  height: 0.53rem;
+  line-height: 0.53rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: #202629;
+}
+.news_container .newNav .newTitle {
+  width: 1.29rem;
+  height: 0.53rem;
+  margin: 0 0.2rem;
+  text-align: center;
+}
+.news_container .newNav .newTitle.selected {
+  background: url(//game.gtimg.cn/images/lolm/m/diamond-bg.png) no-repeat;
+  background-size: 100%;
+  color: #fff;
+}
+.news_container .newsList {
+  width: 6.78rem;
+  margin: 0 auto;
+}
+.news_container .newsList li {
+  width: 100%;
+  height: 1.3rem;
+  border-bottom: 0.03rem solid #e5e3d6;
+  padding-top: 0.25rem;
+  padding-left: 0.52rem;
+  font-size: 0.26rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.news_container .newsList li::after {
+  content: '';
+  width: 0.15rem;
+  height: 0.81rem;
+  background: url(//game.gtimg.cn/images/lolm/m/decorate.png) no-repeat;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  top: 0.25rem;
+  left: 0.22rem;
+}
+.news_container .newsList li span {
+  width: 0.92rem;
+  height: 0.34rem;
+  background: #202629;
+  display: block;
+  margin-right: 0.05rem;
+  font-size: 0.2rem;
+  line-height: 0.34rem;
+  text-align: center;
+}
+.news_container .newsList li a {
+  font-size: 0.26rem;
+  height: 0.3rem;
+  color: #202629;
+  line-height: 0.3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 0.1rem;
+}
+.news_container .newsList li p {
+  font-size: 0.21rem;
+  color: #9e9c8e;
+  line-height: 0.34rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0.25rem;
+  right: 0;
+}
+.news_container .newsList li:last-child {
+  border-bottom: none;
+}

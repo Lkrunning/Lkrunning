@@ -1,0 +1,126 @@
+.games_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: #fff;
+}
+.games_container #gamesCarousrel {
+  height: 7.91rem;
+}
+.games_container #gamesCarousrel .g_indicator-list li {
+  width: 0.77rem;
+  height: 0.08rem;
+  background: #f7d82e;
+  border-radius: 0;
+  transform: none;
+}
+.games_container #gamesCarousrel .g_indicator-list li.selected {
+  background: #fffcee;
+}
+.games_container .game_lable {
+  width: 7rem;
+  height: 0.6rem;
+  font-size: 0.22rem;
+  line-height: 0.45rem;
+  color: #757e7f;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 auto;
+  padding: 0.6rem 0.1rem 0 0.2rem;
+  position: relative;
+}
+.games_container .game_lable::before,
+.games_container .game_lable::after {
+  background: url(//game.gtimg.cn/images/lolm/m/pop_tit_spr.png) no-repeat;
+  background-size: 6.5rem 6.5rem;
+  line-height: 0.44rem;
+  content: "";
+  width: 0.22rem;
+  height: 0.19rem;
+  position: absolute;
+  top: 0.6rem;
+  background-position: -1.92rem -5.93rem;
+}
+.games_container .game_lable::before {
+  left: 0;
+}
+.games_container .game_lable::after {
+  background-position: -2.56rem -5.93rem;
+  right: 0;
+}
+.games_container .game_dec {
+  background: url(//game.gtimg.cn/images/lolm/m/pop_btn_spr.png) no-repeat;
+  background-size: 3.81rem 9.65rem;
+  text-indent: -999em;
+  line-height: 0.44rem;
+  width: 1.46rem;
+  height: 0.48rem;
+  background-position: 0 -7.5rem;
+  margin: 0 auto;
+  display: block;
+}
+.games_container .game_brand {
+  width: 100%;
+  height: 1.31rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+.games_container .game_brand li {
+  width: 1.45rem;
+  height: 1.31rem;
+  background: url(//game.gtimg.cn/images/lolm/m/btn-brand.png) no-repeat;
+  background-size: 1.45rem 7.91rem;
+}
+.games_container .game_brand .item2 {
+  background-position: 0 -2.64rem;
+}
+.games_container .game_brand .item3 {
+  background-position: 0 -3.96rem;
+}
+.games_container .game_brand .item4 {
+  background-position: 0 -1.32rem;
+}
+.games_container .game_brand .item5 {
+  background-position: 0 -5.29rem;
+}
+.games_container .foot-wrap {
+  width: 100%;
+  height: 3rem;
+  padding: 0.2rem 0 0;
+  color: #777;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  background: url(//game.gtimg.cn/images/lolm/m/page3_bottom.png) center bottom no-repeat;
+  background-size: 100%;
+}
+.games_container .foot-wrap .foot_ieg_logo {
+  display: inline-block;
+  background: url(//game.gtimg.cn/images/lolm/footer_logo.png) no-repeat;
+  background-size: 2.74rem 1.16rem;
+  margin: 0.5rem 0.3rem 0.5rem 1.3rem;
+  vertical-align: middle;
+  width: 2.74rem;
+  height: 0.52rem;
+}
+.games_container .foot-wrap .logo-riot {
+  display: inline-block;
+  background: url(//game.gtimg.cn/images/lolm/footer_logo.png) no-repeat;
+  background-size: 2.74rem 1.16rem;
+  text-indent: -999em;
+  vertical-align: middle;
+  margin: 0.5rem 0.3rem;
+  background-position: 0 -0.64rem;
+  width: 1.37rem;
+  height: 0.42rem;
+}
+.games_container .foot-wrap .copyright_en,
+.games_container .foot-wrap .copyright_zh,
+.games_container .foot-wrap .copyright_public {
+  font-size: 0.24rem;
+  color: #777;
+  line-height: 0.36rem;
+  text-align: center;
+}

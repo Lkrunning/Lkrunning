@@ -1,0 +1,145 @@
+.pop_container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop_container .pop_inner {
+  position: relative;
+}
+.pop_container .pop_inner .pop_title {
+  position: absolute;
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  top: -0.5rem;
+  left: 0;
+  letter-spacing: 0.04rem;
+}
+.pop_container .pop_inner .pop_close {
+  position: absolute;
+  right: 0;
+  border: 3px solid white;
+  font-size: 0.4rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.65rem;
+  background: black;
+  color: #fff;
+  right: -0.24rem;
+  top: 0.28rem;
+}
+.pop_container .pop_inner .pop_top {
+  background: url(//game.gtimg.cn/images/lolm/m/pop_top_bg.png) no-repeat;
+  background-size: 6.53rem 1.09rem;
+  width: 6.53rem;
+  height: 1.09rem;
+}
+.pop_container .pop_inner .pop_middle {
+  background: url(//game.gtimg.cn/images/lolm/m/pop_cir_bg.png) repeat-y;
+  background-size: 6.53rem 6.55rem;
+  width: 6.53rem;
+  margin-top: -1px;
+  font-size: 0.24rem;
+}
+.pop_container .pop_inner .pop_middle .pop_content {
+  background: url(//game.gtimg.cn/images/lolm/m/b_pop_bg.png) left bottom no-repeat;
+  background-size: 6.53rem 5.41rem;
+  width: 6.53rem;
+}
+.pop_container .pop_inner .pop_middle .pop_content .pop_button {
+  width: 3.81rem;
+  height: 0.89rem;
+  display: block;
+  margin: 0.5rem auto 0;
+  text-indent: -999em;
+  background: url(//game.gtimg.cn/images/lolm/m/pop_btn_spr.png) no-repeat;
+  background-size: 3.81rem 9.65rem;
+}
+.pop_container .pop_inner .pop_bottom {
+  background: url(//game.gtimg.cn/images/lolm/m/pop_bot.png) no-repeat;
+  background-size: 6.53rem 1.13rem;
+  width: 6.53rem;
+  height: 1.13rem;
+}
+#popAttend .pop_platform .pop_login {
+  display: flex;
+  justify-content: center;
+}
+#popAttend .pop_platform .pop_login .pop_weixin,
+#popAttend .pop_platform .pop_login .pop_qq {
+  background-size: 1.96rem 2.84rem;
+  width: 1.96rem;
+  height: 2.84rem;
+  margin: 0 0.16rem;
+  position: relative;
+}
+#popAttend .pop_platform .pop_login .pop_weixin.selected::after,
+#popAttend .pop_platform .pop_login .pop_qq.selected::after {
+  content: "";
+  position: absolute;
+  background: url(//game.gtimg.cn/images/lolm/m/pop_cover.png) no-repeat;
+  background-size: 1.96rem 2.84rem;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+#popAttend .pop_platform .pop_login .pop_weixin {
+  background-image: url(//game.gtimg.cn/images/lolm/m/pop_login_sel_wx.jpg);
+}
+#popAttend .pop_platform .pop_login .pop_qq {
+  background-image: url(//game.gtimg.cn/images/lolm/m/pop_login_sel_qq.jpg);
+}
+#popFAQ .pop_faq {
+  line-height: 0.35rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  width: 85%;
+  height: 7.2rem;
+  overflow-y: scroll;
+  margin: 0 auto;
+}
+#popFAQ .pop_faq .pop_faq_li .pop_q,
+#popFAQ .pop_faq .pop_faq_li a {
+  margin-bottom: 0.1rem;
+  color: #896144;
+}
+#popLookDec .pop_lookdec {
+  line-height: 0.35rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  width: 85%;
+  height: 3rem;
+  margin: 0 auto;
+}
+#popWeixin .pop_weixin {
+  width: 6.53rem;
+}
+#popWeixin .pop_weixin img {
+  margin: 0 auto;
+  width: 50%;
+}
+#popMiLiao .pop_miliao {
+  width: 6.53rem;
+}
+#popMiLiao .pop_miliao img {
+  margin: 0 auto;
+  width: 50%;
+}
+#popHero .pop_hero {
+  width: 6.53rem;
+}
+#popHero .pop_hero img {
+  margin: 0 auto;
+  width: 50%;
+}
