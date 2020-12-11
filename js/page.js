@@ -1,6 +1,6 @@
  var showPage=(function () {
     
-    var pageIndex =2;
+    var pageIndex =0;
     var nextPageIndex = null;
     var pages = $$(".page_container .page");
     
